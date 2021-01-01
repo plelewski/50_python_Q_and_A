@@ -10,7 +10,7 @@ for element in A:           # dla kolejnego elementu w liście A
         B.append(element)   # dodaj ten element do listy B
 print(B)                    # wydrukuj listę B
 
-C = list(set(A))            # stwórz listę B na podstawie setu stworzonego na podstawie listy A
+C = list(set(A))            # stwórz listę C na podstawie setu stworzonego na podstawie listy A
 print(C)
 
 # kod dodatkowy - ilość niepowtarzalnych elementów bez użycia zmiennej B i C
